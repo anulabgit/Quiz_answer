@@ -10,7 +10,7 @@ function setup() {
   slider_limit  = createSlider(0, 255, 180);// 이진화 임계값 설정
   slider_limit.position(10, 10);
   slider_limit.style('width', '80px');
-  slider_angle = createSlider(0, 255, 12);// 회전 각도 설정
+  slider_angle = createSlider(0, 360, 12);// 회전 각도 설정
   slider_angle.position(10, 30);
   slider_angle.style('width', '80px');
   createCanvas(500, 500);
