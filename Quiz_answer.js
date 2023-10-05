@@ -6,6 +6,7 @@ function preload() {
 }
 
 function setup() {
+  
   slider_limit  = createSlider(0, 255, 180);// 이진화 임계값 설정
   slider_limit.position(10, 10);
   slider_limit.style('width', '80px');
@@ -17,6 +18,7 @@ function setup() {
 }
 
 function draw() {
+  background('white')
   let angle = slider_angle.value();
   translate(width / 2, height / 2); // 회전 중심을 캔버스 중앙으로 이동
   rotateImage(img, angle);
