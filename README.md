@@ -1,7 +1,7 @@
 # Quiz_answer
 
 입력 이미지<br>
-![image](https://github.com/anulabgit/Quiz_answer/assets/127391777/e384efc9-e091-4dab-993d-5071d0090af3)
+![Uploading image.png…]()
 
 
 출력 이미지<br>
